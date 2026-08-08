@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EntrePoly — Let's make money! A multiplayer business simulation game by OldMateStudios, Nairobi.">
+    <meta name="keywords" content="EntrePoly, business simulation, entrepreneurship game, serious games, Kenya, OldMateStudios, CcHUB">
+    <meta property="og:title" content="EntrePoly — Let's make money!">
+    <meta property="og:description" content="Build companies, hire workers, research products, out-strategize rivals. From a Nairobi game jam to a platform for scaling entrepreneurship education.">
+    <meta property="og:image" content="assets/images/branding/og-image.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>EntrePoly — Let's make money! | OldMateStudios</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/branding/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#top" class="logo">
+                <img src="assets/images/branding/logo-light.png" alt="EntrePoly" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="logo-fallback" style="display:none">
+                    <span class="logo-diamond"> ◆</span>
+                    <span> EntrePoly </span>
+                </span>
+            </a>
+            <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#game">The Game</a></li>
+                <li><a href="#gallery">Screenshots</a></li>
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#orgs">For Orgs</a></li>
+                <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="top">
+        <div class="hero-bg">
+            <div class="grid-bg"></div>
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+            <div class="hero-particles" id="heroParticles"></div>
+        </div>
+        <div class="hero-inner">
+            <div class="hero-tag">
+                <span class="live-dot"></span>
+                In Active Development — Nairobi, Kenya
+            </div>
+            <h1 class="hero-title">EntrePoly</h1>
+            <p class="hero-subtitle">Let's make money!</p>
+            <p class="hero-desc">
+                A multiplayer business simulation where you build companies, hire workers, 
+                research products, and out-strategize your rivals. From a game jam at CcHUB 
+                to a platform for scaling entrepreneurship education.
+            </p>
+            <div class="hero-actions">
+                <a href="#game" class="btn btn-gold">See The Game</a>
+                <a href="#gallery" class="btn btn-outline">View Screenshots</a>
+                <a href="#support" class="btn btn-outline">Support The Build</a>
+            </div>
+            <div class="live-stats">
+                <div class="stat">
+                    <span class="stat-num" data-target="12">0</span>
+                    <span class="stat-label">Months Building</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" data-target="6">0</span>
+                    <span class="stat-label">Team Members</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" data-target="3">0</span>
+                    <span class="stat-label">M Ksh Needed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" data-target="3">0</span>
+                    <span class="stat-label">Key Partners</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="mouse"><div class="wheel"></div></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ==================== THE GAME ==================== -->
+    <section class="section section-dark" id="game">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">The Game</span>
+                <h2>What Is EntrePoly?</h2>
+                <p>Not your average board game. You don't just roll dice — you run a business.</p>
+            </div>
+
+            <!-- Game UI Mockup -->
+            <div class="game-mockup reveal">
+                <div class="mockup-header">
+                    <div class="mockup-dots">
+                        <span class="dot-red"></span>
+                        <span class="dot-yellow"></span>
+                        <span class="dot-green"></span>
+                    </div>
+                    <span class="mockup-title">Round 19 · June · 91 ideas left</span>
+                </div>
+                <div class="mockup-body">
+                    <div class="mockup-board">
+                        <div class="track-row">
+                            <div class="track-cell q-label">Q1 / January</div>
+                            <div class="track-cell">February</div>
+                            <div class="track-cell">March</div>
+                            <div class="track-cell q-label">Q2 / April</div>
+                        </div>
+                        <div class="track-row">
+                            <div class="track-cell">December</div>
+                            <div class="track-cell"></div>
+                            <div class="track-cell"></div>
+                            <div class="track-cell">May</div>
+                        </div>
+                        <div class="track-row">
+                            <div class="track-cell q-label">Q4 / October</div>
+                            <div class="track-cell">September</div>
+                            <div class="track-cell active">
+                                <div class="player-avatar">K</div>
+                                August
+                            </div>
+                            <div class="track-cell q-label">Q3 / July</div>
+                        </div>
+                        <div class="turn-badge">
+                            <div class="player-avatar small">B</div>
+                            <span>BonK's Turn</span>
+                            <span class="turn-money">$32,453</span>
+                        </div>
+                    </div>
+                    <div class="mockup-sidebar">
+                        <div class="balance-card">
+                            <div class="balance-label">CURRENT BALANCE</div>
+                            <div class="balance-amount">$53,996</div>
+                            <div class="balance-bar"><div class="balance-fill" style="width:5%"></div></div>
+                            <div class="balance-sub">$53,996 / $1,000,000</div>
+                        </div>
+                        <div class="metrics-row">
+                            <div class="metric">
+                                <div class="metric-label">MONTHLY REVENUE</div>
+                                <div class="metric-value up">+$30,000</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-label">MONTHLY BURN</div>
+                                <div class="metric-value down">-$10,400</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-label">NET / MONTH</div>
+                                <div class="metric-value up">+$19,600</div>
+                            </div>
+                        </div>
+                        <div class="leaderboard">
+                            <div class="lb-title">LEADERBOARD</div>
+                            <div class="lb-row lb-you">
+                                <span class="lb-rank">#1</span>
+                                <span class="lb-avatar">K</span>
+                                <span class="lb-name">Kevin <span class="lb-tag">YOU</span></span>
+                                <span class="lb-net">+$19,600/mo</span>
+                                <span class="lb-total">$53,996</span>
+                            </div>
+                            <div class="lb-row">
+                                <span class="lb-rank">#2</span>
+                                <span class="lb-avatar" style="background:#f87171">P</span>
+                                <span class="lb-name">Philipp</span>
+                                <span class="lb-net">+$14,378/mo</span>
+                                <span class="lb-total">$46,118</span>
+                            </div>
+                            <div class="lb-row lb-turn">
+                                <span class="lb-rank">#3</span>
+                                <span class="lb-avatar" style="background:#fbbf24;color:#1a1f2e">B</span>
+                                <span class="lb-name">BonK <span class="lb-tag turn">TURN</span></span>
+                                <span class="lb-net">+$9,404/mo</span>
+                                <span class="lb-total">$32,453</span>
+                            </div>
+                            <div class="lb-row">
+                                <span class="lb-rank">#4</span>
+                                <span class="lb-avatar" style="background:#a78bfa">K</span>
+                                <span class="lb-name">Kim</span>
+                                <span class="lb-net">+$3,889/mo</span>
+                                <span class="lb-total">$20,867</span>
+                            </div>
+                        </div>
+                        <button class="mockup-btn">Browse Worker Pools</button>
+                    </div>
+                </div>
+                <div class="mockup-pipeline">
+                    <div class="pipe-title">R&D PIPELINE</div>
+                    <div class="pipe-cards">
+                        <div class="pipe-card">
+                            <div class="pipe-type">PROD</div>
+                            <div class="pipe-tier">Tier I</div>
+                            <div class="pipe-name">CryptoWallet</div>
+                            <div class="pipe-status">RELEASE</div>
+                        </div>
+                        <div class="pipe-card">
+                            <div class="pipe-type">PROD</div>
+                            <div class="pipe-tier">Tier I</div>
+                            <div class="pipe-name">TravelMate</div>
+                            <div class="pipe-status">RELEASE</div>
+                        </div>
+                        <div class="pipe-card">
+                            <div class="pipe-type">PROD</div>
+                            <div class="pipe-tier">Tier I</div>
+                            <div class="pipe-name">FitPulse</div>
+                            <div class="pipe-status">EARLY ACCESS</div>
+                        </div>
+                        <div class="pipe-card pipe-active">
+                            <div class="pipe-type">IDEA</div>
+                            <div class="pipe-tier">Tier I</div>
+                            <div class="pipe-name">BikeShare</div>
+                            <div class="pipe-status">In hand</div>
+                            <div class="pipe-phase">IDEA</div>
+                            <div class="pipe-rev">Pre-revenue</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mechanics-grid stagger-children">
+                <div class="mech-card reveal">
+                    <div class="mech-icon">🏢</div>
+                    <h3>Build Businesses</h3>
+                    <p>Launch companies from scratch. Choose your industry, name your startup, and start generating revenue.</p>
+                </div>
+                <div class="mech-card reveal">
+                    <div class="mech-icon">👥</div>
+                    <h3>Hire Workers</h3>
+                    <p>Browse worker pools, hire talent, manage payroll. Bad hires cost you. Good hires scale you.</p>
+                </div>
+                <div class="mech-card reveal">
+                    <div class="mech-icon">🔬</div>
+                    <h3>Research & Develop</h3>
+                    <p>Move ideas through your R&D pipeline: from concept to prototype to validated product to market release.</p>
+                </div>
+                <div class="mech-card reveal">
+                    <div class="mech-icon">💰</div>
+                    <h3>Manage Finances</h3>
+                    <p>Track monthly revenue, burn rate, and net income. Hit $1,000,000 balance to win.</p>
+                </div>
+                <div class="mech-card reveal">
+                    <div class="mech-icon">🎲</div>
+                    <h3>Strategic Moves</h3>
+                    <p>Advance on the calendar track, respond to market events, negotiate with rivals, adapt or die.</p>
+                </div>
+                <div class="mech-card reveal">
+                    <div class="mech-icon">🏆</div>
+                    <h3>Climb The Board</h3>
+                    <p>Real-time leaderboard shows who's winning. Watch your net worth grow — or crash.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== VIDEO TRAILER ==================== -->
+    <section class="section section-video" id="trailer">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">Watch It In Action</span>
+                <h2>Gameplay Trailer</h2>
+            </div>
+            <div class="video-wrapper reveal">
+                <video 
+                    class="gameplay-video" 
+                    poster="assets/videos/gameplay-trailer-poster.jpg"
+                    controls
+                    preload="none"
+                    aria-label="EntrePoly gameplay trailer"
+                >
+                    <source src="assets/videos/gameplay-trailer.mp4" type="video/mp4">
+                    <p>Your browser doesn't support video. 
+                       <a href="assets/videos/gameplay-trailer.mp4">Download the trailer</a>
+                    </p>
+                </video>
+                <div class="video-fallback" id="videoFallback" style="display:none">
+                    <img src="assets/videos/gameplay-trailer-poster.jpg" alt="EntrePoly gameplay screenshot">
+                    <div class="video-overlay">
+                        <button class="play-btn" id="playBtn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </button>
+                        <span>Trailer coming soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SCREENSHOT GALLERY ==================== -->
+    <section class="section section-dark" id="gallery">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">Screenshots</span>
+                <h2>See The Game</h2>
+            </div>
+            <div class="gallery-grid stagger-children">
+                <div class="gallery-item reveal" data-caption="The main game board with calendar track and player positions">
+                    <img src="assets/images/game/screenshot-board.png" alt="EntrePoly game board showing Q1-Q4 calendar track with player avatars" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Game Board</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal wide" data-caption="Player dashboard with balance, revenue, burn rate, and net income">
+                    <img src="assets/images/game/screenshot-dashboard.png" alt="EntrePoly player dashboard showing financial metrics" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Dashboard</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" data-caption="R&D Pipeline — move ideas from concept to market release">
+                    <img src="assets/images/game/screenshot-rnd.png" alt="EntrePoly R&D pipeline showing product cards" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>R&D Pipeline</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" data-caption="Browse worker pools and hire the right talent">
+                    <img src="assets/images/game/screenshot-workers.png" alt="EntrePoly worker pool browser" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Worker Pools</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal wide" data-caption="Develop products — prototype, validate, release">
+                    <img src="assets/images/game/screenshot-product.png" alt="EntrePoly product development screen" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Product Dev</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" data-caption="Real-time leaderboard tracking all players">
+                    <img src="assets/images/game/screenshot-leaderboard.png" alt="EntrePoly leaderboard showing player rankings" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Leaderboard</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" data-caption="Market events that change the game">
+                    <img src="assets/images/game/screenshot-events.png" alt="EntrePoly market events screen" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Market Events</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous">‹</button>
+        <img src="" alt="" id="lightboxImg">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+        <button class="lightbox-nav lightbox-next" aria-label="Next">›</button>
+    </div>
+
+    <!-- ==================== THE PROBLEM ==================== -->
+    <section class="section section-cream" id="problem">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag tag-dark">The Problem</span>
+                <h2>Scaling Quality Learning Is Hard</h2>
+            </div>
+            <div class="problem-grid stagger-children">
+                <div class="problem-card reveal">
+                    <div class="problem-num">01</div>
+                    <h3>More Learners = More Trainers</h3>
+                    <p>The moment you try to scale learning experiences to 100s or 1000s, you need more people to deliver them.</p>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="problem-num">02</div>
+                    <h3>More Trainers = More Cost</h3>
+                    <p>More trainers means more time, more costs, and more complexity. Margins shrink fast.</p>
+                </div>
+                <div class="problem-card reveal">
+                    <div class="problem-num">03</div>
+                    <h3>Training Orgs Fail To Scale</h3>
+                    <p>All this leads to training organizations failing as they try to grow beyond their physical capacity.</p>
+                </div>
+            </div>
+            <div class="problem-statement reveal">
+                <p>"The same training as a live experience, but minus the additional cost of more trainers and extra overhead."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SOLUTION ==================== -->
+    <section class="section section-dark" id="solution">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">Our Solution</span>
+                <h2>What Happens When 1000s Play Our Game?</h2>
+            </div>
+            <div class="solution-layout">
+                <div class="solution-text reveal-left">
+                    <p class="solution-lead">Learners take on the role of a business owner, making decisions and getting feedback from the game.</p>
+                    <p>This is the same training as a live experience — same skills, same pressure, same outcomes — but minus the additional cost of more trainers and extra overhead.</p>
+                    <div class="solution-stats">
+                        <div class="sol-stat">
+                            <span class="sol-num">1</span>
+                            <span>Player</span>
+                        </div>
+                        <div class="sol-stat">
+                            <span class="sol-num">100</span>
+                            <span>Players</span>
+                        </div>
+                        <div class="sol-stat">
+                            <span class="sol-num">1000+</span>
+                            <span>Players</span>
+                        </div>
+                    </div>
+                    <p class="solution-note">Same experience. Same learning. Zero additional trainer cost per player.</p>
+                </div>
+                <div class="solution-visual reveal-right">
+                    <div class="product-stages">
+                        <div class="stage-row">
+                            <div class="stage-box">PROTOTYPE</div>
+                            <div class="stage-box active">VALIDATED PROTOTYPE</div>
+                        </div>
+                        <div class="stage-info">
+                            <div class="stage-name">CyberShield</div>
+                            <div class="stage-meta">PROTOTYPE · Tap stages on the track to choose how far to advance</div>
+                            <div class="stage-cost">$10,006</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== DIGITAL + PHYSICAL ==================== -->
+    <section class="section section-dark" id="channels">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">Platforms</span>
+                <h2>How We Reach Players</h2>
+            </div>
+            <div class="channels-grid stagger-children">
+                <div class="channel-card channel-now reveal">
+                    <div class="channel-status">LIVE NOW</div>
+                    <h3>Web Application</h3>
+                    <p>Play EntrePoly in your browser. Multiplayer, real-time, no install needed.</p>
+                </div>
+                <div class="channel-card channel-future reveal">
+                    <div class="channel-status">FUTURE</div>
+                    <h3>Board Games</h3>
+                    <p>Tactile version for classrooms, workshops, and family game nights.</p>
+                </div>
+                <div class="channel-card channel-future reveal">
+                    <div class="channel-status">FUTURE</div>
+                    <h3>Mobile Games</h3>
+                    <p>iOS and Android versions for learning on the go.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== BOARD GAME PROTOTYPE ==================== -->
+    <section class="section section-cream" id="boardgame">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag tag-dark">Beyond The Screen</span>
+                <h2>Physical Board Game</h2>
+                <p>Currently in prototype. Designed for schools, workshops, and family game nights.</p>
+            </div>
+            <div class="boardgame-showcase reveal">
+                <div class="boardgame-main">
+                    <img src="assets/images/boardgame/board-prototype.jpg" alt="EntrePoly physical board game prototype" loading="lazy" onerror="this.parentElement.classList.add('placeholder')">
+                    <div class="boardgame-placeholder" style="display:none">
+                        <span>Board prototype photo</span>
+                    </div>
+                </div>
+                <div class="boardgame-details stagger-children">
+                    <div class="bg-detail reveal">
+                        <img src="assets/images/boardgame/cards-prototype.jpg" alt="Game cards" loading="lazy" onerror="this.style.display='none'">
+                        <div class="bg-detail-text">
+                            <h4>Event Cards</h4>
+                            <p>Market shifts, opportunities, and crises</p>
+                        </div>
+                    </div>
+                    <div class="bg-detail reveal">
+                        <img src="assets/images/boardgame/tokens-prototype.jpg" alt="Game tokens" loading="lazy" onerror="this.style.display='none'">
+                        <div class="bg-detail-text">
+                            <h4>Player Tokens</h4>
+                            <p>Track your position and assets</p>
+                        </div>
+                    </div>
+                    <div class="bg-detail reveal">
+                        <img src="assets/images/boardgame/dice-prototype.jpg" alt="Custom dice" loading="lazy" onerror="this.style.display='none'">
+                        <div class="bg-detail-text">
+                            <h4>Custom Dice</h4>
+                            <p>Weighted for strategic depth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TEAM ==================== -->
+    <section class="section section-dark" id="team">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">The Builders</span>
+                <h2>Meet The Team</h2>
+                <p>OldMateStudios — built at CcHUB Nairobi during a game jam. Still building.</p>
+            </div>
+            
+            <div class="team-photo-wrap reveal">
+                <div class="team-photo">
+                    <img src="assets/images/team/team-cchub.jpeg" alt="OldMateStudios team at CcHUB Nairobi" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+                    <div class="team-photo-fallback" style="display:none">
+                        <span>Team photo at CcHUB Nairobi</span>
+                    </div>
+                    <div class="team-names">
+                        <span class="t-name" style="top:55%;left:5%">Allan Robinson</span>
+                        <span class="t-name" style="top:65%;left:20%">Lilian Warutere</span>
+                        <span class="t-name" style="top:15%;left:32%">Fred Gitonga</span>
+                        <span class="t-name" style="top:38%;left:45%">Gichia</span>
+                        <span class="t-name" style="top:48%;left:55%">Philip – Unreal</span>
+                        <span class="t-name" style="top:62%;left:65%">Don</span>
+                        <span class="t-name" style="top:85%;left:78%">Phillip – Unity</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-grid stagger-children">
+                <div class="team-member reveal">
+                    <div class="member-avatar">
+                        <img src="assets/images/team/fred-gitonga.jpeg" alt="Fred Gitonga" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="avatar-fallback" style="display:none">FG</span>
+                    </div>
+                    <h4>Fred Gitonga</h4>
+                    <span class="member-role">Project Lead</span>
+                </div>
+                <div class="team-member reveal">
+                    <div class="member-avatar">
+                        <img src="assets/images/team/gichia.jpeg" alt="Gichia" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="avatar-fallback" style="display:none">GI</span>
+                    </div>
+                    <h4>Gichia</h4>
+                    <span class="member-role">Game Design</span>
+                </div>
+                <div class="team-member reveal">
+                    <div class="member-avatar">
+                        <img src="assets/images/team/philip-unreal.jpeg" alt="Philip" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="avatar-fallback" style="display:none">PU</span>
+                    </div>
+                    <h4>Philip</h4>
+                    <span class="member-role">Unreal Engine</span>
+                </div>
+                <div class="team-member reveal">
+                    <div class="member-avatar">
+                        <img src="assets/images/team/phillip-unity.jpeg" alt="Phillip" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="avatar-fallback" style="display:none">PY</span>
+                    </div>
+                    <h4>Phillip</h4>
+                    <span class="member-role">Unity</span>
+                </div>
+                <div class="team-member reveal">
+                    <div class="member-avatar">
+                        <img src="assets/images/team/lilian-warutere.jpeg" alt="Lilian Warutere" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="avatar-fallback" style="display:none">LW</span>
+                    </div>
+                    <h4>Lilian Warutere</h4>
+                    <span class="member-role">Operations</span>
+                </div>
+                <div class="team-member reveal">
+                    <div class="member-avatar">
+                        <img src="assets/images/team/allan-robinson.jpeg" alt="Allan Robinson" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="avatar-fallback" style="display:none">AR</span>
+                    </div>
+                    <h4>Allan Robinson</h4>
+                    <span class="member-role">Strategy</span>
+                </div>
+                <div class="team-member reveal">
+                    <div class="member-avatar">
+                        <img src="assets/images/team/don.jpeg" alt="Don" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="avatar-fallback" style="display:none">DO</span>
+                    </div>
+                    <h4>Don</h4>
+                    <span class="member-role">Development</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ROADMAP ==================== -->
+    <section class="section section-dark" id="roadmap">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">The Journey</span>
+                <h2>Roadmap</h2>
+            </div>
+            <div class="roadmap-track">
+                <div class="road-line"></div>
+                <div class="road-item done reveal-left">
+                    <div class="road-dot"></div>
+                    <div class="road-card">
+                        <span class="road-status">DONE</span>
+                        <h4>Game Jam Prototype</h4>
+                        <p>48 hours at IHUB Nairobi. The idea that started it all.</p>
+                    </div>
+                </div>
+                <div class="road-item done reveal-left">
+                    <div class="road-dot"></div>
+                    <div class="road-card">
+                        <span class="road-status">DONE</span>
+                        <h4>Early Testing</h4>
+                        <p>Local entrepreneurs and students validated core mechanics.</p>
+                    </div>
+                </div>
+                <div class="road-item done reveal-left">
+                    <div class="road-dot"></div>
+                    <div class="road-card">
+                        <span class="road-status">DONE</span>
+                        <h4>Digital MVP</h4>
+                        <p>First playable web version with business simulation.</p>
+                    </div>
+                </div>
+                <div class="road-item active reveal-left">
+                    <div class="road-dot"></div>
+                    <div class="road-card">
+                        <span class="road-status status-now">NOW</span>
+                        <h4>Bootstrap Build</h4>
+                        <p>Team of 5 × 6 months. 3M Ksh + utilities to get to validated product.</p>
+                    </div>
+                </div>
+                <div class="road-item reveal-left">
+                    <div class="road-dot"></div>
+                    <div class="road-card">
+                        <span class="road-status">NEXT</span>
+                        <h4>Final Production</h4>
+                        <p>Another 6 months, 6M Ksh. Polish, board game, mobile prep.</p>
+                    </div>
+                </div>
+                <div class="road-item reveal-left">
+                    <div class="road-dot"></div>
+                    <div class="road-card">
+                        <span class="road-status">LATER</span>
+                        <h4>Launch & Scale</h4>
+                        <p>Web public launch. Board game manufacturing. Mobile development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PARTNERS ==================== -->
+    <section class="section section-cream" id="partners">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag tag-dark">Backing Us</span>
+                <h2>Key Partners</h2>
+            </div>
+            <div class="partners-row stagger-children">
+                <div class="partner-block reveal">
+                    <div class="partner-logo">
+                        <img src="assets/images/partners/kas_logo.jpg" alt="Konrad Adenauer Stiftung" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="logo-fallback" style="display:none">KAS</span>
+                    </div>
+                    <h4>Konrad Adenauer Stiftung</h4>
+                    <p>Institutional support for democratic development and innovation.</p>
+                </div>
+                <div class="partner-block reveal">
+                    <div class="partner-logo">
+                        <img src="assets/images/partners/r42-logo.jpg" alt="R42" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="logo-fallback" style="display:none">R42</span>
+                    </div>
+                    <h4>R42</h4>
+                    <p>Strategic development and technology partnership.</p>
+                </div>
+                <div class="partner-block reveal">
+                    <div class="partner-logo">
+                        <span class="logo-fallback" style="display:flex">EDU</span>
+                    </div>
+                    <h4>Educational Organizations</h4>
+                    <p>Pilot programs and curriculum integration partners.</p>
+                </div>
+                <div class="partner-block reveal">
+                    <div class="partner-logo">
+                        <span class="logo-fallback" style="display:flex">INC</span>
+                    </div>
+                    <h4>Incubators / Accelerators</h4>
+                    <p>Startup ecosystem support and founder mentorship.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SUPPORT / THE ASKS ==================== -->
+    <section class="section section-ask" id="support">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">The Asks</span>
+                <h2>How You Can Help</h2>
+            </div>
+            <div class="asks-grid stagger-children">
+                <div class="ask-card reveal">
+                    <div class="ask-icon">🧠</div>
+                    <h3>Mentoring</h3>
+                    <p>Game industry veterans, ed-tech founders, or business strategists — we need your brain.</p>
+                </div>
+                <div class="ask-card reveal">
+                    <div class="ask-icon">🏗️</div>
+                    <h3>Scaling & Infrastructure</h3>
+                    <p>Advice on cloud architecture, multiplayer backend, and scaling to 1000+ concurrent players.</p>
+                </div>
+                <div class="ask-card reveal">
+                    <div class="ask-icon">💵</div>
+                    <h3>Financial Support</h3>
+                    <p>Grants, angel investment, or sponsorship. We're bootstrapping but need fuel to ship.</p>
+                </div>
+                <div class="ask-card reveal">
+                    <div class="ask-icon">📢</div>
+                    <h3>Marketing & Partnerships</h3>
+                    <p>Connect us with schools, corporates, and training orgs who need what we're building.</p>
+                </div>
+            </div>
+            <div class="ask-cta reveal">
+                <a href="#contact" class="btn btn-gold btn-large">Become A Sponsor</a>
+                <a href="#contact" class="btn btn-outline btn-large">Introduce Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOR ORGANIZATIONS ==================== -->
+    <section class="section section-dark" id="orgs">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">B2B</span>
+                <h2>Bring EntrePoly To Your Organization</h2>
+                <p>Custom editions for your training needs.</p>
+            </div>
+            <div class="org-grid stagger-children">
+                <div class="org-card reveal">
+                    <h4>NGOs</h4>
+                    <p>Youth empowerment and entrepreneurship programs.</p>
+                </div>
+                <div class="org-card reveal">
+                    <h4>Governments</h4>
+                    <p>Policy simulations and civil service training.</p>
+                </div>
+                <div class="org-card reveal">
+                    <h4>Universities</h4>
+                    <p>Business school curriculum and innovation challenges.</p>
+                </div>
+                <div class="org-card reveal">
+                    <h4>Corporate Training</h4>
+                    <p>Leadership, financial literacy, and team building.</p>
+                </div>
+                <div class="org-card reveal">
+                    <h4>Accelerators</h4>
+                    <p>Founder readiness and pitch preparation.</p>
+                </div>
+                <div class="org-card reveal">
+                    <h4>High School Clubs</h4>
+                    <p>Early entrepreneurship exposure and competitions.</p>
+                </div>
+            </div>
+            <div class="org-cta reveal">
+                <a href="#contact" class="btn btn-gold btn-large">Request Custom Version</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== COMMUNITY ==================== -->
+    <section class="section section-cream" id="community">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag tag-dark">Join In</span>
+                <h2>Community</h2>
+            </div>
+            <div class="community-grid stagger-children">
+                <div class="comm-card reveal">
+                    <span class="comm-emoji">🎓</span>
+                    <h4>Students</h4>
+                </div>
+                <div class="comm-card reveal">
+                    <span class="comm-emoji">💻</span>
+                    <h4>Developers</h4>
+                </div>
+                <div class="comm-card reveal">
+                    <span class="comm-emoji">🎨</span>
+                    <h4>Artists</h4>
+                </div>
+                <div class="comm-card reveal">
+                    <span class="comm-emoji">🎮</span>
+                    <h4>Game Designers</h4>
+                </div>
+                <div class="comm-card reveal">
+                    <span class="comm-emoji">📚</span>
+                    <h4>Educators</h4>
+                </div>
+                <div class="comm-card reveal">
+                    <span class="comm-emoji">🧪</span>
+                    <h4>Playtesters</h4>
+                </div>
+            </div>
+            <div class="community-links reveal">
+                <a href="#" class="comm-link">Discord</a>
+                <a href="#" class="comm-link">GitHub</a>
+                <a href="#" class="comm-link">Twitter</a>
+                <a href="#" class="comm-link">Instagram</a>
+            </div>
+            <div class="newsletter reveal">
+                <h3>Get Updates</h3>
+                <form id="newsletterForm" class="nl-form">
+                    <input type="email" placeholder="your@email.com" required>
+                    <button type="submit" class="btn btn-gold">Subscribe</button>
+                </form>
+                <div class="nl-msg" id="nlMsg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="tag">Talk To Us</span>
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-wrap">
+                <div class="contact-info reveal-left">
+                    <div class="ci-block">
+                        <h4>Business</h4>
+                        <a href="mailto:hello@oldmatestudios.com">hello@oldmatestudios.com</a>
+                    </div>
+                    <div class="ci-block">
+                        <h4>Investment</h4>
+                        <a href="mailto:invest@oldmatestudios.com">invest@oldmatestudios.com</a>
+                    </div>
+                    <div class="ci-block">
+                        <h4>Press</h4>
+                        <a href="mailto:press@oldmatestudios.com">press@oldmatestudios.com</a>
+                    </div>
+                    <div class="ci-block">
+                        <h4>Location</h4>
+                        <p>Nairobi, Kenya 🇰🇪</p>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form reveal-right">
+                    <div class="form-row">
+                        <div class="fg">
+                            <label>Name</label>
+                            <input type="text" name="name" required>
+                        </div>
+                        <div class="fg">
+                            <label>Email</label>
+                            <input type="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="fg">
+                        <label>Subject</label>
+                        <select name="subject" required>
+                            <option value="">Pick one...</option>
+                            <option value="sponsor">Sponsorship</option>
+                            <option value="invest">Investment</option>
+                            <option value="partner">Partnership</option>
+                            <option value="custom">Custom Game</option>
+                            <option value="media">Media</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="fg">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gold btn-full">Send Message</button>
+                    <div class="form-msg" id="formMsg"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <a href="#top" class="logo">
+                        <img src="assets/images/branding/logo-light.png" alt="EntrePoly" class="logo-img" style="height:28px" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <span class="logo-fallback" style="display:none">
+                            <span class="logo-diamond">◆</span>
+                            <span>EntrePoly</span>
+                        </span>
+                    </a>
+                    <p>Let's make money! — OldMateStudios, Nairobi</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#game">The Game</a>
+                    <a href="#gallery">Screenshots</a>
+                    <a href="#team">Team</a>
+                    <a href="#roadmap">Roadmap</a>
+                    <a href="#support">Support</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Discord">DC</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 OldMateStudios. Built with caffeine at CcHUB Nairobi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>

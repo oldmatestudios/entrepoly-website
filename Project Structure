@@ -1,0 +1,41 @@
+/entreploy-landing/
+├── index.html
+├── styles.css
+├── script.js
+└── assets/
+    ├── images/
+    │   ├── team/
+    │   │   ├── team-cchub.jpg          (team photo at CcHUB)
+    │   │   ├── fred-gitonga.jpg
+    │   │   ├── gichia.jpg
+    │   │   ├── philip-unreal.jpg
+    │   │   ├── phillip-unity.jpg
+    │   │   ├── lilian-warutere.jpg
+    │   │   ├── allan-robinson.jpg
+    │   │   └── don.jpg
+    │   ├── game/
+    │   │   ├── screenshot-board.jpg     (main game board)
+    │   │   ├── screenshot-dashboard.jpg  (player dashboard)
+    │   │   ├── screenshot-rnd.jpg        (R&D pipeline)
+    │   │   ├── screenshot-workers.jpg    (worker pools)
+    │   │   ├── screenshot-product.jpg    (product development)
+    │   │   ├── screenshot-leaderboard.jpg
+    │   │   └── screenshot-events.jpg     (market events)
+    │   ├── boardgame/
+    │   │   ├── board-prototype.jpg
+    │   │   ├── cards-prototype.jpg
+    │   │   ├── tokens-prototype.jpg
+    │   │   └── dice-prototype.jpg
+    │   ├── branding/
+    │   │   ├── logo-dark.png
+    │   │   ├── logo-light.png
+    │   │   ├── og-image.jpg              (social share image)
+    │   │   └── favicon.ico
+    │   └── partners/
+    │       ├── kas-logo.png
+    │       ├── r42-logo.png
+    │       └── cchub-logo.png
+    └── videos/
+        ├── gameplay-trailer.mp4
+        ├── gameplay-trailer-poster.jpg
+        └── dev-diary-01.mp4
