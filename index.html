@@ -276,18 +276,6 @@
                 <h2>Gameplay Trailer</h2>
             </div>
             <div class="video-wrapper reveal">
-                <video 
-                    class="gameplay-video" 
-                    poster="assets/videos/gameplay-trailer-poster.jpg"
-                    controls
-                    preload="none"
-                    aria-label="EntrePoly gameplay trailer"
-                >
-                    <source src="assets/videos/gameplay-trailer.mp4" type="video/mp4">
-                    <p>Your browser doesn't support video. 
-                       <a href="assets/videos/gameplay-trailer.mp4">Download the trailer</a>
-                    </p>
-                </video>
                 <div class="video-fallback" id="videoFallback" style="display:none">
                     <img src="assets/videos/gameplay-trailer-poster.jpg" alt="EntrePoly gameplay screenshot">
                     <div class="video-overlay">
@@ -297,6 +285,21 @@
                         <span>Trailer coming soon</span>
                     </div>
                 </div>
+            </div>
+
+            <div class="trailer-grid reveal">
+                <a class="trailer-card" href="https://www.youtube.com/shorts/zM2Zm1yEIOU" target="_blank" rel="noreferrer" aria-label="Watch EntrePoly Trailer 1 on YouTube">
+                    <div class="trailer-thumb">
+                        <img src="https://img.youtube.com/vi/zM2Zm1yEIOU/hqdefault.jpg" alt="EntrePoly Trailer 1 thumbnail">
+                        <div class="trailer-play">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="trailer-copy">
+                        <span class="trailer-kicker">Trailer 1</span>
+                        <h3>EntrePoly Short Intro</h3>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -310,13 +313,13 @@
             </div>
             <div class="gallery-grid stagger-children">
                 <div class="gallery-item reveal" data-caption="The main game board with calendar track and player positions">
-                    <img src="assets/images/game/screenshot-board.png" alt="EntrePoly game board showing Q1-Q4 calendar track with player avatars" loading="lazy">
+                    <img src="assets/images/game/screenshot-board.jpeg" alt="EntrePoly game board showing Q1-Q4 calendar track with player avatars" loading="lazy">
                     <div class="gallery-overlay">
                         <span>Game Board</span>
                     </div>
                 </div>
                 <div class="gallery-item reveal wide" data-caption="Player dashboard with balance, revenue, burn rate, and net income">
-                    <img src="assets/images/game/screenshot-dashboard.png" alt="EntrePoly player dashboard showing financial metrics" loading="lazy">
+                    <img src="assets/images/game/screenshot-dashboard.jpeg" alt="EntrePoly player dashboard showing financial metrics" loading="lazy">
                     <div class="gallery-overlay">
                         <span>Dashboard</span>
                     </div>
@@ -334,19 +337,19 @@
                     </div>
                 </div>
                 <div class="gallery-item reveal wide" data-caption="Develop products — prototype, validate, release">
-                    <img src="assets/images/game/screenshot-product.png" alt="EntrePoly product development screen" loading="lazy">
+                    <img src="assets/images/game/screenshot-product.jpeg" alt="EntrePoly product development screen" loading="lazy">
                     <div class="gallery-overlay">
                         <span>Product Dev</span>
                     </div>
                 </div>
                 <div class="gallery-item reveal" data-caption="Real-time leaderboard tracking all players">
-                    <img src="assets/images/game/screenshot-leaderboard.png" alt="EntrePoly leaderboard showing player rankings" loading="lazy">
+                    <img src="assets/images/game/screenshot-leaderboard.jpeg" alt="EntrePoly leaderboard showing player rankings" loading="lazy">
                     <div class="gallery-overlay">
                         <span>Leaderboard</span>
                     </div>
                 </div>
                 <div class="gallery-item reveal" data-caption="Market events that change the game">
-                    <img src="assets/images/game/screenshot-events.png" alt="EntrePoly market events screen" loading="lazy">
+                    <img src="assets/images/game/screenshot-events.jpeg" alt="EntrePoly market events screen" loading="lazy">
                     <div class="gallery-overlay">
                         <span>Market Events</span>
                     </div>
@@ -475,7 +478,7 @@
             </div>
             <div class="boardgame-showcase reveal">
                 <div class="boardgame-main">
-                    <img src="assets/images/boardgame/board-prototype.jpg" alt="EntrePoly physical board game prototype" loading="lazy" onerror="this.parentElement.classList.add('placeholder')">
+                    <img src="assets/images/boardgame/entrepoly-boardgame.png" alt="EntrePoly physical board game prototype" loading="lazy" onerror="this.parentElement.classList.add('placeholder')">
                     <div class="boardgame-placeholder" style="display:none">
                         <span>Board prototype photo</span>
                     </div>
@@ -834,20 +837,33 @@
             <div class="contact-wrap">
                 <div class="contact-info reveal-left">
                     <div class="ci-block">
-                        <h4>Business</h4>
-                        <a href="mailto:hello@oldmatestudios.com">hello@oldmatestudios.com</a>
-                    </div>
-                    <div class="ci-block">
-                        <h4>Investment</h4>
-                        <a href="mailto:invest@oldmatestudios.com">invest@oldmatestudios.com</a>
-                    </div>
-                    <div class="ci-block">
-                        <h4>Press</h4>
-                        <a href="mailto:press@oldmatestudios.com">press@oldmatestudios.com</a>
+                        <h4>Email</h4>
+                        <a href="mailto:oldmatestudios@gmail.com">oldmatestudios@gmail.com</a>
                     </div>
                     <div class="ci-block">
                         <h4>Location</h4>
                         <p>Nairobi, Kenya 🇰🇪</p>
+                    </div>
+                    <div class="contact-socials">
+                        <h4>Find us online</h4>
+                        <div class="social-chips">
+                            <a href="https://x.com/oldmatestudios" class="social-chip" aria-label="Twitter" target="_blank" rel="noreferrer">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                                <span>Twitter / X</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/old-mates-studios" class="social-chip" aria-label="LinkedIn" target="_blank" rel="noreferrer">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://www.instagram.com/oldmatestudios/?hl=en" class="social-chip" aria-label="Instagram" target="_blank" rel="noreferrer">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm8.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 6a6 6 0 1 1 0 12 6 6 0 0 1 0-12zm0 1.5A4.5 4.5 0 1 0 12 17.5 4.5 4.5 0 0 0 12 7.5z"/></svg>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://www.youtube.com/@OldMatesStudios" class="social-chip" aria-label="YouTube" target="_blank" rel="noreferrer">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.5a2.97 2.97 0 0 0-2.09-2.1C19.6 4 12 4 12 4s-7.6 0-9.41.4A2.97 2.97 0 0 0 .5 6.5 31.25 31.25 0 0 0 0 12a31.25 31.25 0 0 0 .5 5.5 2.97 2.97 0 0 0 2.09 2.1C4.4 20 12 20 12 20s7.6 0 9.41-.4a2.97 2.97 0 0 0 2.09-2.1A31.25 31.25 0 0 0 24 12a31.25 31.25 0 0 0-.5-5.5zM9.75 15.5V8.5L16 12l-6.25 3.5z"/></svg>
+                                <span>YouTube</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <form id="contactForm" class="contact-form reveal-right">
